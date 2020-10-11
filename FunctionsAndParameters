@@ -1,0 +1,23 @@
+//------ Functions and Parameters in Typescript
+
+function myFunc(greeting: string, name : string): string{
+     return greeting + ' ' + name + '.';
+ }
+
+// console.log(myFunc("Hiii", "Popy"));
+
+//Making a parameter optional 
+
+function myFunc(greeting: string, name? : string): string{
+    return greeting + ' ' + name + '.';
+}
+
+// console.log(myFunc("Hiii"));
+
+//Making a parameter default... if no value is provided for the parameter
+
+function myFunc(greeting: string, name: string = "there"): string{
+    return greeting + ' ' + name + '.';
+}
+
+console.log(myFunc("Hiii"));
