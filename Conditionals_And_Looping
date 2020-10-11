@@ -1,0 +1,42 @@
+//------------------------------------------------ Conditionals 
+
+let a : number = 100, b= 20;
+if(a>b){
+    console.log("a is greater");
+}
+else {
+    console.log("b is greater");
+}
+
+//----Ternary operator
+
+a>b ? console.log("a is big") : console.log("b is big");
+
+
+//------------------------------------------------- Looping through array variable
+
+for (let i = 0; i <= 3; i++){
+    console.log("value " + i);
+}
+
+let myArray = [10, 56, 34, 12];
+
+//----for of loop gives value itself iteratable
+
+for(var val of myArray){
+    console.log(val);
+}
+
+//----for in loop gives index of iteratable
+
+for(var index in myArray){
+    console.log(myArray[index]);
+}
+
+//-----while loop basic syntax works as well
+
+//while(condition) {
+    //block of code
+
+    // incr/decr operator
+//}
