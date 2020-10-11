@@ -1,0 +1,18 @@
+//Interface in typescript. It is a guideline 
+//What part only. How part is in implementation
+
+interface myUser{
+    userId: number;
+    readonly username: string; // to make a property readonly
+}
+
+//implementing interface
+class myClass implements myUser{
+    //use the interface properties (You have to otherwise it will give error)
+}
+
+//Inheriting interface by another interface
+
+interface myBoss extends myUser{
+
+}
